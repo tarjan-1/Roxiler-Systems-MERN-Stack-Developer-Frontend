@@ -1,8 +1,21 @@
-# React + Vite
+## Getting Started
+Clone the repository:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+bash
+git clone https://github.com/tarjan-1/Roxiller-Assessment-MERN-Stack.git
 
-Currently, two official plugins are available:
+## create .env files for both frontend and backend 
+VITE_BACKEND_API_URL="url_to_your_api_server"
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Install dependencies:
+
+cd yourproject
+open two terminal instances one for frontend and other for backend
+npm install
+
+Running the Application
+Start both frontend and backend server:
+
+npm start
+The Frontend application will be accessible at http://localhost:5500.
+The Backend application will be accessible at http://localhost:3000.
